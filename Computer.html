@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<!--作者Frish2021(ArismaCanGG)-->
+<!--版本号1.0-->
+<!--github:frish2021-open-->
+<!--开源协议:GPL3-->
+<!--类型:起始页-->
+<!--编写开始时间:2022/8/7-->
+<!--编写完成时间:2022/8/11-->
+<!--html网页-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <link href="./style/index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="img/webico.ico" type="image/x-icon">
+    <title>ArismaCanGG起始页</title>
+</head>
+
+<body scroll="no">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand" href="index.html">
+            ArismaCanGG
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" id="about" onclick="dianwo();">关于</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="websitehelp.html" id="aboutzz">帮助</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                    <span id="ss1">1111</span>
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" onclick="uu = bing();">Bing</a>
+                    <a class="dropdown-item" onclick="uu = baidu();">Baidu</a>
+                    <a class="dropdown-item" onclick="uu = google();">Google</a>
+                    <a class="dropdown-item" onclick="uu = fsou();">fsou</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <input id="mc" placeholder="请输入你想输入的内容" class="input" value="">
+    <button id="bu" type="button" onclick="javascript:mc();" class="button"></button>
+    <div class="time"><span id="time"></span></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <div id="aplayer" class="aplayer" data-autoplay="false" data-id="7574398283" data-server="netease"
+        data-type="playlist" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#F58EA8"></div>
+    <br>
+    <div class="zhezhao" id='zhezhao'>
+        <div class="tankuang">
+            <div id="header">
+                <h2 align="center">关于起始页</h2>
+                <h3 align="center">版本号:V1.0</h3>
+                <h3 align="center">作者:Frish2021(ArismaCanGG)</h3>
+                <div class="updata2">
+                    <div class="updata">
+                        <a>2022/8/9</a><br>
+                        <a>Frish2021起始页改名ArismaCanGG起始页</a><br>
+                        <a>起始页域名更改为www.arismacangg.gq</a><br>
+                        <a>UI更新了</a><br>
+                        <a>更新了随机背景</a><br>
+                        <a>可以修改搜索引擎</a><br>
+                        <a>更新导航栏</a><br>
+                    </div>
+                </div>
+                <button id="header-right" onclick="hidder()">x</button>
+            </div>
+        </div>
+    </div>
+    <div class="app" id="tcc"></div>
+    <div class="mc" id="mmm">
+        <form action="https://www.bilibili.com" id="eyou">
+            <button class="bilibili" id="ooo"></button>
+        </form>
+        <form action="https://www.github.com">
+            <button class="github"></button>
+        </form>
+        <form action="https://developer.android.google.cn/">
+            <button class="android"></button>
+        </form>
+        <form action="https://translate.google.cn">
+            <button class="google"></button>
+        </form>
+    </div>
+    <script src="https://unpkg.com/meting@1.2.0/dist/Meting.min.js"></script>
+    <script src="Script/jquery-3.6.0.min.js"></script>
+    <script src="Script/Lang.js"></script>
+    <script src="Script/tanc1.js"></script>
+    <script src="script/youtube.js"></script>
+</body>
+
+</html>
